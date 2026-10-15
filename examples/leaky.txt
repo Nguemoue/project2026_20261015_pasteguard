@@ -1,0 +1,15 @@
+[2026-10-15 20:14:02] production.ERROR: charge failed {"order":1042}
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+
+.env fragment dumped by a debug middleware:
+DB_PASSWORD=changeme
+APP_KEY=base64:pasteguard-demo-key-not-a-real-laravel-key
+DATABASE_URL=mysql://billing:s3cret-db-pass@10.0.0.8:3306/billing
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+MAIL_PASSWORD=correct-horse-battery
+APP_KEY=base64:pasteguard-demo-key-not-a-real-laravel-key
+
+note: the user token expired after logout.
+customer support@client.example asked for a receipt.
+password=secret

@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+$root = dirname(__DIR__);
+if (is_file($root . '/vendor/autoload.php')) {
+    require $root . '/vendor/autoload.php';
+} else {
+    require $root . '/src/bootstrap.php';
+}
+
+exit(PasteGuard\Cli::run($argv));

@@ -1,0 +1,28 @@
+{
+    "name": "nguemoue/pasteguard",
+    "description": "Zero-dependency PHP tool that redacts secrets from a log before you paste it into an AI chat, a ticket, or Slack.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "bin": [
+        "bin/pasteguard"
+    ],
+    "autoload": {
+        "psr-4": {
+            "PasteGuard\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "keywords": [
+        "secrets",
+        "redact",
+        "logs",
+        "llm",
+        "cli",
+        "php"
+    ]
+}
